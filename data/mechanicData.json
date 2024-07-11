@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "John's Auto Repair",
+    "location": "123 Main St, Edmonton, AB",
+    "services": [
+      {
+        "type": "Oil Change",
+        "price": 50,
+        "reviews": [
+          {
+            "reviewer": "Alice",
+            "rating": 5,
+            "comment": "Quick and efficient service!"
+          },
+          {
+            "reviewer": "Bob",
+            "rating": 4,
+            "comment": "Good service, but a bit pricey."
+          },
+          {
+            "id": "7509fd81-2314-45fe-a5ec-5fd54300951b",
+            "description": "Excellent service, very quick!",
+            "reviewer": "Alice",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "type": "Brake Repair",
+        "price": 200,
+        "reviews": [
+          {
+            "reviewer": "Charlie",
+            "rating": 5,
+            "comment": "Excellent brake repair service."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Auto Masters",
+    "location": "456 Elm St, Edmonton, AB",
+    "services": [
+      {
+        "type": "Oil Change",
+        "price": 45,
+        "reviews": [
+          {
+            "reviewer": "Dave",
+            "rating": 4,
+            "comment": "Affordable and quick."
+          },
+          {
+            "id": "dd2c7faa-dc31-4654-a6d5-7a0d71b296d9",
+            "description": "Excellent service, very quick!",
+            "reviewer": "Alice",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "type": "Tire Replacement",
+        "price": 100,
+        "reviews": [
+          {
+            "reviewer": "Eve",
+            "rating": 5,
+            "comment": "Great tire replacement service."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Quick Fix Auto",
+    "location": "789 Oak St, Edmonton, AB",
+    "services": [
+      {
+        "type": "Brake Repair",
+        "price": 180,
+        "reviews": [
+          {
+            "reviewer": "Frank",
+            "rating": 4,
+            "comment": "Good service but took a bit longer than expected."
+          }
+        ]
+      },
+      {
+        "type": "Battery Replacement",
+        "price": 150,
+        "reviews": [
+          {
+            "reviewer": "Grace",
+            "rating": 5,
+            "comment": "Fast and reliable battery replacement."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "013b50a3-f7a6-4ca8-9e64-1a03c90ea051"
+  },
+  {
+    "id": "4172ff64-4907-4bf0-8333-bb98fb917c0e",
+    "description": "I love him"
+  },
+  {
+    "id": "a9b632bf-982f-4af7-9acf-c823b7c988f4",
+    "description": "I love him"
+  }
+]
