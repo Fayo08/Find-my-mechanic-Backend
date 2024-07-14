@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "mechanic_id": 1,
+    "type": "Oil Change",
+    "price": 50
+  },
+  {
+    "id": 2,
+    "mechanic_id": 1,
+    "type": "Brake Repair",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "mechanic_id": 2,
+    "type": "Tire Rotation",
+    "price": 40
+  },
+  {
+    "id": 4,
+    "mechanic_id": 2,
+    "type": "Oil Change",
+    "price": 45
+  },
+  {
+    "id": 5,
+    "mechanic_id": 3,
+    "type": "Transmission Repair",
+    "price": 200
+  },
+  {
+    "id": 6,
+    "mechanic_id": 3,
+    "type": "Oil Change",
+    "price": 55
+  }
+]

@@ -1,117 +1,57 @@
 [
-  {
-    "id": 1,
-    "name": "John's Auto Repair",
-    "location": "123 Main St, Edmonton, AB",
-    "services": [
-      {
-        "type": "Oil Change",
-        "price": 50,
-        "reviews": [
-          {
-            "reviewer": "Alice",
-            "rating": 5,
-            "comment": "Quick and efficient service!"
-          },
-          {
-            "reviewer": "Bob",
-            "rating": 4,
-            "comment": "Good service, but a bit pricey."
-          },
-          {
-            "id": "7509fd81-2314-45fe-a5ec-5fd54300951b",
-            "description": "Excellent service, very quick!",
-            "reviewer": "Alice",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "type": "Brake Repair",
-        "price": 200,
-        "reviews": [
-          {
-            "reviewer": "Charlie",
-            "rating": 5,
-            "comment": "Excellent brake repair service."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Auto Masters",
-    "location": "456 Elm St, Edmonton, AB",
-    "services": [
-      {
-        "type": "Oil Change",
-        "price": 45,
-        "reviews": [
-          {
-            "reviewer": "Dave",
-            "rating": 4,
-            "comment": "Affordable and quick."
-          },
-          {
-            "id": "dd2c7faa-dc31-4654-a6d5-7a0d71b296d9",
-            "description": "Excellent service, very quick!",
-            "reviewer": "Alice",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "type": "Tire Replacement",
-        "price": 100,
-        "reviews": [
-          {
-            "reviewer": "Eve",
-            "rating": 5,
-            "comment": "Great tire replacement service."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Quick Fix Auto",
-    "location": "789 Oak St, Edmonton, AB",
-    "services": [
-      {
-        "type": "Brake Repair",
-        "price": 180,
-        "reviews": [
-          {
-            "reviewer": "Frank",
-            "rating": 4,
-            "comment": "Good service but took a bit longer than expected."
-          }
-        ]
-      },
-      {
-        "type": "Battery Replacement",
-        "price": 150,
-        "reviews": [
-          {
-            "reviewer": "Grace",
-            "rating": 5,
-            "comment": "Fast and reliable battery replacement."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "013b50a3-f7a6-4ca8-9e64-1a03c90ea051"
-  },
-  {
-    "id": "4172ff64-4907-4bf0-8333-bb98fb917c0e",
-    "description": "I love him"
-  },
-  {
-    "id": "a9b632bf-982f-4af7-9acf-c823b7c988f4",
-    "description": "I love him"
-  }
-]
+    {
+      "id": 1,
+      "name": "John's Auto Repair",
+      "image_path": "https://unsplash.com/photos/man-in-white-dress-shirt-holding-yellow-and-black-power-tool-NWPGfi4RAEY",
+      "location": "123 Main St, Edmonton, AB"
+      
+    
+    },
+    {
+      "id": 2,
+      "name": "Dave's Garage",
+      "image_path": "https://unsplash.com/photos/a-man-working-on-a-car-in-a-garage-jL9zfzTVSwY",
+      "location": "456 Elm St, Edmonton, AB"
+     
+    },
+    {
+      "id": 3,
+      "name": "AutoTech Edmonton",
+      "image_path": "https://unsplash.com/photos/a-woman-holding-a-wrench-in-a-garage-iY0GFYADmU0",
+      "location": "789 Maple Ave, Edmonton, AB"
+      
+    },
+    {
+      "id": 4,
+      "name": "Edmonton Auto Solutions",
+      "image_path": "https://unsplash.com/photos/man-holding-engines-KxeFuXta4SE",
+      "location": "321 Oak St, Edmonton, AB"
+   
+      
+    },
+    {
+      "id": 5,
+      "name": "Precision Auto Care",
+      "image_path": "https://unsplash.com/photos/man-in-black-tank-top-sitting-on-motorcycle-Fy72qZAKuxM",
+      "location": "654 Pine St, Edmonton, AB"
+      
+      
+    },
+    {
+      "id": 6,
+      "name": "City Auto Service",
+      "image_path": "https://unsplash.com/photos/man-sitting-near-motorcycle-CcQWTRseDow",
+
+      "location": "987 Cedar St, Edmonton, AB"
+      
+    },
+    {
+      "id": 7,
+      "name": "Edmonton Auto Pro",
+      "image_path": "https://unsplash.com/photos/grayscale-photography-of-man-gD1HU_XU5aE",
+
+      "location": "654 Spruce St, Edmonton, AB"
+     
+    }
+  ]
+  
