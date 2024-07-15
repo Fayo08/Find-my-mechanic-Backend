@@ -37,18 +37,6 @@ const getMechanicsByService = async (req, res) => {
     }
   };
 
-//   const getAllCategories = async (req, res) => {
-//     try {
-//       const categories = await knex("services")
-//         .distinct("category")
-//         .select("category");
-  
-//       res.status(200).json(categories.map((c) => c.category));
-//     } catch (error) {
-//       console.error("Error fetching categories:", error);
-//       res.status(500).json({ error: "Failed to fetch categories" });
-//     }
-//   };
 
   const getMechanicsByCategory = async (req, res) => {
     try {
@@ -78,7 +66,6 @@ const getMechanicsByService = async (req, res) => {
  
 export {
     getMechanicsByCategory,
-    // getAllCategories,
     getMechanicsByService,
   getServicesByMechanic,
   getAllservices,
