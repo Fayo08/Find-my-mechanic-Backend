@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import {
     getMechanicsByCategory,
-    // getAllCategories,
+   
     getMechanicsByService,
     getServicesByMechanic,
   getAllservices,

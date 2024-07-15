@@ -7,7 +7,7 @@ import {
 } from "../controllers/reviews_controller.js";
 
 // POST /api/reviews //
-router.post("/", createReview);
+router.post("/reviews", createReview);
 
 // GET /api/reviews/1 //
 router.get("/:id", getSingleReview);

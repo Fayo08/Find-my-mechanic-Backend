@@ -5,21 +5,21 @@ const knex = initKnex(configuration);
 // Create a new review
 const createReview = async (req, res) => {
   try {
-    const { services_id, rating, comment, reviewer } = req.body;
+    const { mechanics_id, rating, comment, reviewer } = req.body;
 
-    
-
-    const [id] = await knex("reviews").insert({
-      services_id,
+    const result = await knex("reviews").insert({
       rating,
       comment,
       reviewer,
+      mechanics_id,
     });
 
+    const id = result[0];
     const newReview = await knex("reviews").where({ id }).first();
 
     res.status(201).json(newReview);
   } catch (error) {
+    alert("Error creating review:");
     res.status(500).json({ error: "Failed to create review." });
   }
 };
@@ -53,7 +53,7 @@ const getReviewsByMechanicId = async (req, res) => {
   
       res.json(reviews);
     } catch (error) {
-      console.error("Error fetching reviews:", error);
+      alert("Error fetching reviews:");
       res.status(500).json({
         message: "Unable to retrieve reviews.",
       });
