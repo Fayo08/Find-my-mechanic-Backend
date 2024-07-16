@@ -58,7 +58,7 @@ const getMechanicsByService = async (req, res) => {
   
       res.status(200).json(mechanics);
     } catch (error) {
-      console.error(`Error fetching mechanics for category "${category}":`, error);
+
       res.status(500).json({ error: "Failed to fetch mechanics" });
     }
   };

@@ -19,7 +19,7 @@ const createReview = async (req, res) => {
 
     res.status(201).json(newReview);
   } catch (error) {
-    alert("Error creating review:");
+  
     res.status(500).json({ error: "Failed to create review." });
   }
 };
@@ -53,7 +53,7 @@ const getReviewsByMechanicId = async (req, res) => {
   
       res.json(reviews);
     } catch (error) {
-      alert("Error fetching reviews:");
+ 
       res.status(500).json({
         message: "Unable to retrieve reviews.",
       });
