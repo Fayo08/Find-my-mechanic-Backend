@@ -28,5 +28,5 @@ app.use('/api/services', servicesRoutes);
 
 
 app.listen(PORT, () => {
-    
+      console.log(`Server running on http://localhost:${PORT}`);
 })
