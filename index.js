@@ -28,5 +28,5 @@ app.use('/api/services', servicesRoutes);
 
 
 app.listen(PORT, () => {
-    
+    console.log(`Server started on port ${PORT}`);
 })

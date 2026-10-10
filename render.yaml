@@ -1,0 +1,16 @@
+# Render Blueprint: Dashboard → New → Blueprint → pick this repo.
+# On every start the server migrates and re-seeds, so the demo data resets whenever it wakes up.
+services:
+  - type: web
+    name: findmymechanic-api-fayo08
+    runtime: node
+    plan: free
+    branch: develop
+    buildCommand: npm ci --omit=dev
+    startCommand: npm run start:render
+    healthCheckPath: /api/services
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: DATABASE_URL
+        sync: false
